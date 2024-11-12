@@ -30,15 +30,15 @@ Bu oyun, dünya mutfağından yemek fotoğraflarını göstererek, oyuncuların 
 
 - ## Görseller
 
-### Dünya Haritası
-Bu oyun, dünya mutfakları ile ilgili olduğu için, harita da önemli bir bileşen olabilir. Aşağıdaki harita, oyunda yer alan yemeklerin hangi ülkelerden geldiğini gösteriyor.
-
-![Dünya Haritası](https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/World_map_-_low_resolution.svg/800px-World_map_-_low_resolution.svg.png)
 
 ### Suşi
 Oyunun bir örneği olarak, Japon mutfağından suşi yemeği de yer alacak.
 
-![Suşi](https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Sushi_platter.jpg/600px-Sushi_platter.jpg)
+![image](https://github.com/user-attachments/assets/b87f3275-237a-474b-87c5-ce14187d271b)
 
+### Dünya Haritası
+Bu oyun, dünya mutfakları ile ilgili olduğu için, harita da önemli bir bileşen olabilir. Aşağıdaki harita, oyunda yer alan yemeklerin hangi ülkelerden geldiğini gösteriyor.
+
+![image](https://github.com/user-attachments/assets/f12dea86-32e7-4050-ab96-0f25b7e3d9f7)
 
 [![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/ATV5e7Id)
