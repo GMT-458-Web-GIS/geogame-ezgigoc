@@ -24,21 +24,21 @@ Bu oyun, dünya mutfağından yemek fotoğraflarını göstererek, oyuncuların 
 3. Yanlış tahmin yaparsa bir can kaybeder.
 4. Canlar bittiğinde oyun sona erer ve oyuncuya toplam puanı gösterilir.
 
-## Kurulum ve Çalıştırma
+## Kullanılan Kütüphaneler
 
-1. Bu projeyi bilgisayarınıza indirin:
-    ```bash
-    git clone https://github.com/username/repository-name.git
-    ```
+- **[Leaflet.js](https://leafletjs.com/)**: Harita tabanlı oyun öğeleri için kullanıldı.
 
-2. Proje klasörüne gidin:
-    ```bash
-    cd repository-name
-    ```
+- ## Görseller
 
-3. `index.html` dosyasını bir web tarayıcısında açarak oyunu başlatabilirsiniz.
+### Dünya Haritası
+Bu oyun, dünya mutfakları ile ilgili olduğu için, harita da önemli bir bileşen olabilir. Aşağıdaki harita, oyunda yer alan yemeklerin hangi ülkelerden geldiğini gösteriyor.
 
-## Lisans
+![Dünya Haritası](https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/World_map_-_low_resolution.svg/800px-World_map_-_low_resolution.svg.png)
 
-Bu proje, [MIT Lisansı](LICENSE) altında lisanslanmıştır.
+### Suşi
+Oyunun bir örneği olarak, Japon mutfağından suşi yemeği de yer alacak.
+
+![Suşi](https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Sushi_platter.jpg/600px-Sushi_platter.jpg)
+
+
 [![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/ATV5e7Id)
