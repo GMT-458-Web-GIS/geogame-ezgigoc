@@ -1,43 +1,44 @@
-# Dünya Yemekleri Bilgi Yarışması Oyunu
+# World Food Quiz Game
 
-Bu oyun, dünya mutfağından yemek fotoğraflarını göstererek, oyuncuların hangi ülkenin mutfağına ait olduğunu tahmin etmelerini sağlamak için tasarlanmıştır. Her doğru tahmin oyuncuya puan kazandırırken, yanlış cevaplar can kaybına yol açar. Oyuncular, 3 can hakkıyla oyuna başlarlar ve her yanlış cevapla bir can kaybederler. Canları bittiğinde oyun sona erer.
+This game is designed to show photos of food from around the world and have players guess which country's cuisine it belongs to. Each correct guess earns the player points, while wrong answers result in a loss of life. Players start the game with 3 lives and lose a life with each wrong answer. The game ends when their lives run out.
 
-## Oyun Özeti
+## Game Summary
 
-- **Amaç**: Oyuncular, ekrana gelen yemek fotoğrafının hangi ülkeye ait olduğunu doğru tahmin etmeye çalışacaklar.
-- **Can Hakkı**: Oyuncuların başlangıçta 3 can hakkı vardır. Yanlış cevap verirlerse, her yanlış cevap bir can kaybeder.
-- **Puanlama**: Doğru tahminler 10 puan kazandırır.
-- **Oyun Sonu**: Canlar bittiğinde oyun sona erer ve oyuncuya toplam puanı gösterilir.
-- **Yemekler**: Her turda rastgele bir yemek ve ülke fotoğrafı ekranda gösterilir. Oyuncular, yemek fotoğrafına hangi ülkenin ait olduğunu tahmin etmeye çalışır.
+- **Objective**: Players will try to correctly guess which country the food photo that appears on the screen belongs to.
+- **Life Rights**: Players have 3 lives at the beginning. If they answer incorrectly, each incorrect answer will cost them a life.
+- **Scoring**: Correct guesses earn 10 points.
+- **Game End**: When the lives run out, the game ends and the player's total score is shown.
+- **Meals**: A random food and country photo is shown on the screen each round. Players try to guess which country the food photo belongs to.
+- 
+## Technologies Used
 
-## Kullanılan Teknolojiler
+- **HTML**: Used to create the game interface.
+- **CSS**: Used to create the visual design of the game, control buttons and layout.
+- **JavaScript**: Used to implement game logic, score and life management.
+- **External Image URLs**: Used external image links to capture food photos over the internet. For example, photos of food were taken from a web server (external URLs were used for images).
+  
+## Game Flow
 
-- **HTML**: Oyun arayüzünü oluşturmak için kullanıldı.
-- **CSS**: Oyunun görsel tasarımını yapmak, butonlar ve düzeni kontrol etmek için kullanıldı.
-- **JavaScript**: Oyun mantığını, puan ve can yönetimini gerçekleştirmek için kullanıldı.
-- **Harici Resim URL’leri**: Yemek fotoğraflarının internet üzerinden çekilmesi için harici resim bağlantıları kullanıldı. Örneğin, yemeklerin fotoğrafları bir web sunucusundan alındı (resimler için harici URL’ler kullanıldı).
+1. The player guesses which country's cuisine it belongs to by looking at the food photo.
 
-## Oyun Akışı
+2. 4 different options are presented. If they guess correctly, they earn 10 points and move on to the next dish.
 
-1. Oyuncu, yemek fotoğrafına bakarak hangi ülkenin mutfağına ait olduğunu tahmin eder.
-2. 4 farklı seçenek sunulur. Doğru tahmin yaparsa 10 puan kazanır ve bir sonraki yemeğe geçilir.
-3. Yanlış tahmin yaparsa bir can kaybeder.
-4. Canlar bittiğinde oyun sona erer ve oyuncuya toplam puanı gösterilir.
+3. If they guess incorrectly, they lose a life.
 
-## Kullanılan Kütüphaneler
+4. When the lives run out, the game ends and the player is shown their total score.
 
-- **[Leaflet.js](https://leafletjs.com/)**: Harita tabanlı oyun öğeleri için kullanıldı.
+## Libraries Used
 
-- ## Görseller
+- **[Leaflet.js](https://leafletjs.com/)**: Used for map-based game elements.
 
-
-### Suşi
-Oyunun bir örneği olarak, Japon mutfağından suşi yemeği de yer alacak.
-
+- ## Images
+### Sushi
+As an example of the game, sushi from Japanese cuisine will also be included.
+Other countries where sushi is famous outside of Japan can also be selected and the next question cannot be passed until all countries are selected.
 ![image](https://github.com/user-attachments/assets/b87f3275-237a-474b-87c5-ce14187d271b)
 
-### Dünya Haritası
-Bu oyun, dünya mutfakları ile ilgili olduğu için, harita da önemli bir bileşen olabilir. Aşağıdaki harita, oyunda yer alan yemeklerin hangi ülkelerden geldiğini gösteriyor.
+### World Map
+Since this game is about world cuisines, the country that is famous for its food will be selected on the map. The map below shows which countries the food in the game comes from.
 
 ![image](https://github.com/user-attachments/assets/f12dea86-32e7-4050-ab96-0f25b7e3d9f7)
 
