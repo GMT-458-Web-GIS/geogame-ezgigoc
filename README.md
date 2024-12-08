@@ -1,3 +1,4 @@
+file:///C:/Users/User/Desktop/geogame/index.html
 # World Food Quiz Game
 
 This game is designed to show photos of food from around the world and have players guess which country's cuisine it belongs to. Each correct guess earns the player points, while wrong answers result in a loss of life. Players start the game with 3 lives and lose a life with each wrong answer. The game ends when their lives run out.
@@ -62,21 +63,22 @@ Closures are used in the game to maintain state and manage event listeners dynam
 ## Learning from AI
 I learned a great deal from AI tools like ChatGPT during the development process:
 
-Debugging Assistance: ChatGPT helped resolve issues such as ensuring the game progresses correctly and fixing the map display issue.
-Efficient Coding: I implemented better coding practices like event listener management and randomization of data with ChatGPT’s guidance.
+### Debugging Assistance: ChatGPT helped resolve issues such as ensuring the game progresses correctly and fixing the map display issue.
+### Efficient Coding: I implemented better coding practices like event listener management and randomization of data with ChatGPT’s guidance.
 
-Interaction with the DOM
+## Interaction with the DOM
 The game interacts with the DOM to:
 
-## Dynamically update scores and lives:
-Manage visibility of game sections:
+### Dynamically update scores and lives:
+### Manage visibility of game sections:
 
 
 ## Interactivity/Complexity/Fun of the Game
 ### Chosen JS Library: Leaflet.js
-Functionalities Used:
+####Functionalities Used:
 Interactive Map: Used to display a world map where players can click to guess the country.
-Distance Calculation: Leveraged map.distance() to calculate the distance between the player’s guess and the target location.
+####Distance Calculation: 
+Leveraged map.distance() to calculate the distance between the player’s guess and the target location.
 Tile Layers: Added OpenStreetMap tiles for a visually appealing map interface.
 
 ### Complexity and Fun:
