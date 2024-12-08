@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dünya Yemekleri Oyunu</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Leaflet CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    <!-- Leaflet JS -->
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+</head>
+<body>
+    <div id="game-container">
+        <h1>Dünya Yemekleri Harita Oyunu</h1>
+        <div id="game-intro">
+            <p>Bu oyunda yemek görsellerine bakarak haritada doğru ülkeyi seçmelisiniz. Doğru seçimi 1000 km yakınında yaparsanız puan kazanırsınız. Yanlış yaptığınızda canınız azalır. İyi eğlenceler!</p>
+            <button id="start-button">Başla</button>
+        </div>
+        <div id="game-area" style="display: none;">
+            <div id="info">
+                <p id="lives">Kalan Can: 3</p>
+                <p id="score">Puan: 0</p>
+            </div>
+            <div id="game">
+                <div id="food-container">
+                    <img id="foodImage" src="" alt="Yemek" />
+                    <p id="foodName"></p>
+                </div>
+                <div id="map"></div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
