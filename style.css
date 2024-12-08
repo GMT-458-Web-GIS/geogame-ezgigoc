@@ -1,0 +1,94 @@
+/* Genel gövde stilleri */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg, #f9f9f9, #dbeafe);
+    color: #333;
+}
+
+/* Ana oyun kutusu */
+#game-container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    position: relative;
+}
+
+/* Başlık */
+h1 {
+    font-size: 2.5em;
+    color: #4A90E2;
+    margin-bottom: 10px;
+}
+
+/* Giriş açıklama kısmı */
+#game-intro {
+    font-size: 1.2em;
+    color: #555;
+}
+
+/* Bilgi kısmı */
+#info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    font-size: 1.2em;
+    background: #eef2ff;
+    border-radius: 10px;
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+/* Yemek görseli ve ismi */
+#food-container {
+    margin: 20px auto;
+}
+
+#foodImage {
+    max-width: 300px;
+    height: auto;
+    border: 5px solid #ddd;
+    border-radius: 10px;
+    margin: 15px auto;
+    display: block;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+#foodName {
+    font-size: 1.5em;
+    color: #4A90E2;
+    margin-top: 10px;
+}
+
+/* Harita */
+#map {
+    width: 100%;
+    height: 500px;
+    margin: 0 auto;
+    border: 2px solid #4A90E2;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+/* Başla butonu */
+button {
+    padding: 10px 20px;
+    font-size: 1.2em;
+    color: white;
+    background: #4A90E2;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    transition: background 0.3s ease;
+}
+
+button:hover {
+    background: #357ABD;
+}
+
