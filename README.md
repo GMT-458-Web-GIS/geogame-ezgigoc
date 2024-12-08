@@ -43,3 +43,44 @@ Since this game is about world cuisines, the country that is famous for its food
 ![image](https://github.com/user-attachments/assets/f12dea86-32e7-4050-ab96-0f25b7e3d9f7)
 
 [![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/ATV5e7Id)
+
+## Start Game Button (startButton)
+
+Description: This handler listens for the click event on the "Start" button and initiates the game. It hides the introduction screen, displays the game area, and starts the first round.
+
+## Map Click (map.once('click', callback))
+
+Description: This handler listens for a single click on the Leaflet map. It captures the latitude and longitude of the click to check the player's guess and validate their response.
+
+## Answer Validation and Next Round Trigger (checkAnswer)
+
+Description: After a map click, this function determines if the guess is correct based on the distance to the target location. It updates the score or lives and initiates the next round.
+
+## Use of Closures
+Closures are used in the game to maintain state and manage event listeners dynamically. For example, when adding a click listener to the map, the currentFood object (specific to the current round) is enclosed within the event handler. This ensures that even as rounds progress, the logic for the current round remains consistent.
+
+## Learning from AI
+I learned a great deal from AI tools like ChatGPT during the development process:
+
+Debugging Assistance: ChatGPT helped resolve issues such as ensuring the game progresses correctly and fixing the map display issue.
+Efficient Coding: I implemented better coding practices like event listener management and randomization of data with ChatGPT’s guidance.
+
+Interaction with the DOM
+The game interacts with the DOM to:
+
+## Dynamically update scores and lives:
+Manage visibility of game sections:
+
+
+## Interactivity/Complexity/Fun of the Game
+### Chosen JS Library: Leaflet.js
+Functionalities Used:
+Interactive Map: Used to display a world map where players can click to guess the country.
+Distance Calculation: Leveraged map.distance() to calculate the distance between the player’s guess and the target location.
+Tile Layers: Added OpenStreetMap tiles for a visually appealing map interface.
+
+### Complexity and Fun:
+
+-Players get to learn about global cuisine while engaging with an interactive map.
+-The game includes randomized rounds and dynamic difficulty through limited lives and increasing challenge with more foods.
+-Feedback (alerts) keeps players motivated, and the scoring system adds a competitive edge.
