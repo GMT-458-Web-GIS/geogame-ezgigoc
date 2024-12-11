@@ -65,6 +65,9 @@ I learned a great deal from AI tools like ChatGPT during the development process
 
 ### Debugging Assistance: ChatGPT helped resolve issues such as ensuring the game progresses correctly and fixing the map display issue.
 ### Efficient Coding: I implemented better coding practices like event listener management and randomization of data with ChatGPT’s guidance.
+### I learned how to add lives
+
+https://chatgpt.com/c/67596b78-6e64-8007-a7b5-42758a9b9893
 
 ## Interaction with the DOM
 The game interacts with the DOM to:
