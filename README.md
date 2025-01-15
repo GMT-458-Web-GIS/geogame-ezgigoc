@@ -1,10 +1,4 @@
-[### Oyunu Başlatmak
-
-Bu projeyi çalıştırmak için aşağıdaki adımları izleyin:
-
-1. Bilgisayarınıza indirin.
-2. `index.html` dosyasını çift tıklayarak tarayıcınızda açın.
-   - Dosya yolu: `file:///C:/Users/User/Desktop/geogame/index.html`](https://gmt-458-web-gis.github.io/geogame-ezgigoc/)
+(https://gmt-458-web-gis.github.io/geogame-ezgigoc/)
 
 # World Food Quiz Game
 
