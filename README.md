@@ -85,9 +85,9 @@ The game interacts with the DOM to:
 
 ## Interactivity/Complexity/Fun of the Game
 ### Chosen JS Library: Leaflet.js
-####Functionalities Used:
+Functionalities Used:
 Interactive Map: Used to display a world map where players can click to guess the country.
-####Distance Calculation: 
+Distance Calculation: 
 Leveraged map.distance() to calculate the distance between the player’s guess and the target location.
 Tile Layers: Added OpenStreetMap tiles for a visually appealing map interface.
 
