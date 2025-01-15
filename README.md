@@ -1,4 +1,11 @@
-file:///C:/Users/User/Desktop/geogame/index.html
+### Oyunu Başlatmak
+
+Bu projeyi çalıştırmak için aşağıdaki adımları izleyin:
+
+1. Bilgisayarınıza indirin.
+2. `index.html` dosyasını çift tıklayarak tarayıcınızda açın.
+   - Dosya yolu: `file:///C:/Users/User/Desktop/geogame/index.html`
+
 # World Food Quiz Game
 
 This game is designed to show photos of food from around the world and have players guess which country's cuisine it belongs to. Each correct guess earns the player points, while wrong answers result in a loss of life. Players start the game with 3 lives and lose a life with each wrong answer. The game ends when their lives run out.
