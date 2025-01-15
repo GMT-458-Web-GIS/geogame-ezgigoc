@@ -1,21 +1,21 @@
 // Yemek verileri
 const foods = [
     { 
-        image: "./wiener_schnitzel.jpg", 
+        image: "./Wiener_schnitzel.jpg", 
         foodName: "Wiener Schnitzel", 
         country: "Avusturya", 
         lat: 47.5162, 
         lng: 14.5501 
     },
     { 
-        image: "./fajitas.jpg", 
+        image: "./Fajitas.jpg", 
         foodName: "Fajita", 
         country: "Meksika", 
         lat: 23.6345, 
         lng: -102.5528 
     },
     { 
-        image: "./hamburger.jpg", 
+        image: "./Hamburger.jpg", 
         foodName: "Hamburger", 
         country: "Amerika", 
         lat: 37.0902, 
@@ -113,42 +113,42 @@ const foods = [
         lng: 30.8025 
     },
     { 
-        image: "images/asado.jpg", 
+        image: "./asado.jpg", 
         foodName: "Asado", 
         country: "Arjantin", 
         lat: -38.4161, 
         lng: -63.6167 
     },
     { 
-        image: "./kimchi.jpg", 
+        image: "./Kimchi.jpg", 
         foodName: "Kimchi", 
         country: "Kore", 
         lat: 35.9078, 
         lng: 127.7669 
     },
     { 
-        image: "./katsudon.jpg", 
+        image: "./Katsudon.jpg", 
         foodName: "Katsudon", 
         country: "Japonya", 
         lat: 36.2048, 
         lng: 138.2529 
     },
     { 
-        image: "./poffertjes.jpg", 
+        image: "./Poffertjes.jpg", 
         foodName: "Poffertjes", 
         country: "Hollanda", 
         lat: 52.1326, 
         lng: 5.2913 
     },
     { 
-        image: "./feijoada.jpg", 
+        image: "./Feijoada.jpg", 
         foodName: "Feijoada", 
         country: "Brezilya", 
         lat: -14.2350, 
         lng: -51.9253 
     },
     { 
-        image: "./poutine.jpg", 
+        image: "./Poutine.jpg", 
         foodName: "Poutine", 
         country: "Kanada", 
         lat: 56.1304, 
