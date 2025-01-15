@@ -1,112 +1,112 @@
 // Yemek verileri
 const foods = [
     { 
-        image: "images/wiener_schnitzel.jpg", 
+        image: "./wiener_schnitzel.jpg", 
         foodName: "Wiener Schnitzel", 
         country: "Avusturya", 
         lat: 47.5162, 
         lng: 14.5501 
     },
     { 
-        image: "images/fajitas.jpg", 
+        image: "./fajitas.jpg", 
         foodName: "Fajita", 
         country: "Meksika", 
         lat: 23.6345, 
         lng: -102.5528 
     },
     { 
-        image: "images/hamburger.jpg", 
+        image: "./hamburger.jpg", 
         foodName: "Hamburger", 
         country: "Amerika", 
         lat: 37.0902, 
         lng: -95.7129 
     },
     { 
-        image: "images/pekin_duck.jpg", 
+        image: "./pekin_duck.jpg", 
         foodName: "Pekin Duck", 
         country: "Çin", 
         lat: 35.8617, 
         lng: 104.1954 
     },
     { 
-        image: "images/tagine.jpg", 
+        image: "./tagine.jpg", 
         foodName: "Tagine", 
         country: "Fas", 
         lat: 31.7917, 
         lng: -7.0926 
     },
     { 
-        image: "images/pizza.jpg", 
+        image: "./pizza.jpg", 
         foodName: "Pizza", 
         country: "İtalya", 
         lat: 41.8719, 
         lng: 12.5674 
     },
     { 
-        image: "images/varenyky.jpg", 
+        image: "./varenyky.jpg", 
         foodName: "Varenyky", 
         country: "Ukrayna", 
         lat: 48.3794, 
         lng: 31.1656 
     },
     { 
-        image: "images/paella.jpg", 
+        image: "./paella.jpg", 
         foodName: "Paella", 
         country: "İspanya", 
         lat: 40.4637, 
         lng: -3.7492 
     },
     { 
-        image: "images/fesenjan.jpg", 
+        image: "./fesenjan.jpg", 
         foodName: "Fesenjan", 
         country: "İran", 
         lat: 32.4279, 
         lng: 53.6880 
     },
     { 
-        image: "images/stroganoff_beef.jpg", 
+        image: "./stroganoff_beef.jpg", 
         foodName: "Stroganoff Beef", 
         country: "Rusya", 
         lat: 61.5240, 
         lng: 105.3188 
     },
     { 
-        image: "images/rakfisk.jpg", 
+        image: "./rakfisk.jpg", 
         foodName: "Rakfisk", 
         country: "Norveç", 
         lat: 60.4720, 
         lng: 8.4689 
     },
     { 
-        image: "images/chicken_tikka_masala.jpg", 
+        image: "./chicken_tikka_masala.jpg", 
         foodName: "Chicken Tikka Masala", 
         country: "Hindistan", 
         lat: 20.5937, 
         lng: 78.9629 
     },
     { 
-        image: "images/escargots_on_the_bourguignon.jpg", 
+        image: "./escargots_on_the_bourguignon.jpg", 
         foodName: "Escargots on the Bourguignon", 
         country: "Fransa", 
         lat: 46.6034, 
         lng: 1.8883 
     },
     { 
-        image: "images/khachapuri.jpg", 
+        image: "./khachapuri.jpg", 
         foodName: "Khachapuri", 
         country: "Gürcistan", 
         lat: 42.3154, 
         lng: 43.3569 
     },
     { 
-        image: "images/fish_and_chips.jpg", 
+        image: "./fish_and_chips.jpg", 
         foodName: "Fish and Chips", 
         country: "İngiltere", 
         lat: 51.5098, 
         lng: -0.1180 
     },
     { 
-        image: "images/hawawshi.jpg", 
+        image: "./hawawshi.jpg", 
         foodName: "Hawawshi", 
         country: "Mısır", 
         lat: 26.8206, 
@@ -120,35 +120,35 @@ const foods = [
         lng: -63.6167 
     },
     { 
-        image: "images/kimchi.jpg", 
+        image: "./kimchi.jpg", 
         foodName: "Kimchi", 
         country: "Kore", 
         lat: 35.9078, 
         lng: 127.7669 
     },
     { 
-        image: "images/katsudon.jpg", 
+        image: "./katsudon.jpg", 
         foodName: "Katsudon", 
         country: "Japonya", 
         lat: 36.2048, 
         lng: 138.2529 
     },
     { 
-        image: "images/poffertjes.jpg", 
+        image: "./poffertjes.jpg", 
         foodName: "Poffertjes", 
         country: "Hollanda", 
         lat: 52.1326, 
         lng: 5.2913 
     },
     { 
-        image: "images/feijoada.jpg", 
+        image: "./feijoada.jpg", 
         foodName: "Feijoada", 
         country: "Brezilya", 
         lat: -14.2350, 
         lng: -51.9253 
     },
     { 
-        image: "images/poutine.jpg", 
+        image: "./poutine.jpg", 
         foodName: "Poutine", 
         country: "Kanada", 
         lat: 56.1304, 
